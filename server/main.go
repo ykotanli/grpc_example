@@ -28,7 +28,7 @@ func (*server) Multiply(ctx context.Context, request *proto.Request) (*proto.Res
 }
 
 func main() {
-	listener, err := net.Listen("tcp", ":4040")
+	listener, err := net.Listen("tcp", ":8080")
 	if err != nil {
 		panic(err)
 	}

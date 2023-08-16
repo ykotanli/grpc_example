@@ -12,7 +12,7 @@ import (
 )
 
 func main() {
-	conn, err := grpc.Dial(":4040", grpc.WithInsecure())
+	conn, err := grpc.Dial("172.18.0.2:8080", grpc.WithInsecure())
 	if err != nil {
 		panic(err)
 	}
