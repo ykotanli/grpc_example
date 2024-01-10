@@ -1,4 +1,4 @@
-module github.com/ykotanli
+module github.com/ykotanli/grpc_example
 
 go 1.21
 
